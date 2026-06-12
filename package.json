@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/tabasco39/cicd-fil-rouge/issues"
   },
-  "homepage": "https://github.com/tabasco39/cicd-fil-rouge#readme"
+  "homepage": "https://github.com/tabasco39/cicd-fil-rouge#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1"
+  }
 }
