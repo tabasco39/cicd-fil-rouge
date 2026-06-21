@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {"Content-Type": "application/json"});
     res.end(
         JSON.stringify({
-            message: "CI/CD fil rouge en ligne maintenant",
+            message: "CI/CD fil rouge en ligne maintenant et déployer automatiquement",
             resultat: add(2, 3)
         })
     )
